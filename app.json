@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "LCG Delivery",
+    "slug": "lcg-delivery",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We use your location to check whether you're inside the Louisville Community Grocery delivery area."
+      }
+    },
+    "android": {
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "We use your location to check whether you're inside the Louisville Community Grocery delivery area."
+        }
+      ]
+    ]
+  }
+}
